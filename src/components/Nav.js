@@ -93,7 +93,7 @@ const Nav = () => {
 								color: isActive ? 'active' : '',
 							};
 						}}
-						to="/user"
+						to="/services"
 					>
 						Our Services
 					</NavLink>
@@ -104,9 +104,9 @@ const Nav = () => {
 						className={({ isActive }) =>
 							isActive ? 'active' : ''
 						}
-						to="/invoice"
+						to="/blog"
 					>
-						Our Team
+						Blog
 					</NavLink>
 				</li>
 				<li>
@@ -115,19 +115,19 @@ const Nav = () => {
 						className={({ isActive }) =>
 							isActive ? 'active' : ''
 						}
-						to="/object_route"
+						to="/contact"
 					>
 						Contact Us
 					</NavLink>
 				</li>
-				
+
 				<li>
-					<NavLink
+					<a
 						// onClick={toggleClass}
 						// className={({ isActive }) =>
 						// 	isActive ? 'active' : ''
 						// }
-						to="/search"
+						href="https://wa.me/2348161353700"
 						style={{
 							backgroundColor: '#800000',
 							color: '#fff',
@@ -137,7 +137,7 @@ const Nav = () => {
 					>
 						{' '}
 						Book an Appointment{' '}
-					</NavLink>
+					</a>
 				</li>
 				<Outlet />
 			</ul>

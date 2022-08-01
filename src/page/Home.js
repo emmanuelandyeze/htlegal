@@ -17,7 +17,11 @@ const Home = () => {
 						our work to their distictive needs.
 					</h3>
 					<div>
-						<a href="/" className="appointBtn">
+						<a
+							href="https://wa.me/2348161353700"
+							className="appointBtn"
+							style={{ color: '#fff' }}
+						>
 							Book an Appointment
 						</a>
 					</div>
@@ -47,7 +51,11 @@ const Home = () => {
 					</p>
 				</div>
 				<div>
-					<a href="/" className="appointBtn">
+					<a
+						href="/about"
+						className="appointBtn"
+						style={{ color: '#fff' }}
+					>
 						About Us
 					</a>
 				</div>
@@ -156,12 +164,46 @@ const Home = () => {
 						process.
 					</p>
 				</div>
-				<div style={{marginTop: '2rem'}}>
-					<a href="/" className="appointBtn">
+				<div style={{ marginTop: '2rem' }}>
+					<a
+						href="https://wa.me/2348161353700"
+						className="appointBtn"
+						style={{ color: '#fff' }}
+					>
 						Book an appointment
 					</a>
 				</div>
 			</div>
+			<footer>
+				<p>Copyright &copy; HT Legal 2022</p>
+				<ul>
+					<li>
+						<a href="https://mobile.twitter.com/HTLegal_S">
+							<i class="fa fa-twitter-square fa-2x"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://facebook.com/htlegaladvisory">
+							<i class="fa fa-facebook-square fa-2x"></i>
+						</a>
+					</li>
+					<li>
+						<a href=" https://wa.me/2348161353700">
+							<i class="fa fa-whatsapp fa-2x"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/htlegal/">
+							<i class="fa fa-instagram fa-2x"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/company/h-t-legal/">
+							<i class="fa fa-linkedin-square fa-2x"></i>
+						</a>
+					</li>
+				</ul>
+			</footer>
 		</div>
 	);
 }
