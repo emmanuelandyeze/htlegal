@@ -12,7 +12,12 @@ import './Style.css';
 const Invoice = () => {
 	return (
 		<div className="admin__dashboard">
-			<h1> Blog </h1>
+			<h1
+				style={{ textAlign: 'center', paddingTop: '10rem' }}
+			>
+				{' '}
+				Coming Soon!!!{' '}
+			</h1>
 		</div>
 	);
 };

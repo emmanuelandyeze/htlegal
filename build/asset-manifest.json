@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc467f88.css",
+    "main.js": "/static/js/main.ef9a2f6e.js",
+    "static/media/appoint.jpg": "/static/media/appoint.e50a27c4b910ae77b229.jpg",
+    "static/media/about.jpg": "/static/media/about.acff1bcbe4f47e655fff.jpg",
+    "static/media/landing2.jpg": "/static/media/landing2.6153375dc0421633418f.jpg",
+    "static/media/landing.jpg": "/static/media/landing.9db2ff3bdbd87098a9f6.jpg",
+    "index.html": "/index.html",
+    "main.bc467f88.css.map": "/static/css/main.bc467f88.css.map",
+    "main.ef9a2f6e.js.map": "/static/js/main.ef9a2f6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc467f88.css",
+    "static/js/main.ef9a2f6e.js"
+  ]
+}

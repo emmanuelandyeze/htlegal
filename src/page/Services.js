@@ -11,7 +11,7 @@ const UserDashboard = () => {
 					<h1>Our Services</h1>
 				</div>
 				<div className="cards">
-					<div className="card">
+					<div className="card employment">
 						<div className="service-header">
 							<h1>EMPLOYMENT & LABOUR RELATIONS</h1>
 						</div>
@@ -27,7 +27,7 @@ const UserDashboard = () => {
 							</p>
 						</div>
 					</div>
-					<div className="card">
+					<div className="card business">
 						<div className="service-header">
 							<h1>CORPORATE & BUSINESS ADVISORY</h1>
 						</div>
@@ -47,7 +47,7 @@ const UserDashboard = () => {
 					</div>
 				</div>
 				<div className="cards">
-					<div className="card">
+					<div className="card estate">
 						<div className="service-header">
 							<h1>ESTATE ADMINISTRATION</h1>
 						</div>
@@ -64,7 +64,7 @@ const UserDashboard = () => {
 							</p>
 						</div>
 					</div>
-					<div className="card">
+					<div className="card technology">
 						<div className="service-header">
 							<h1>TECHNOLOGY</h1>
 						</div>

@@ -20,7 +20,7 @@ const Home = () => {
 						<a
 							href="https://wa.me/2348161353700"
 							className="appointBtn"
-							style={{ color: '#fff' }}
+							style={{ color: '#fff', fontSize: '15px' }}
 						>
 							Book an Appointment
 						</a>
@@ -66,7 +66,7 @@ const Home = () => {
 					<h1>Our Services</h1>
 				</div>
 				<div className="cards">
-					<div className="card">
+					<div className="card employment">
 						<div className="service-header">
 							<h1>EMPLOYMENT & LABOUR RELATIONS</h1>
 						</div>
@@ -82,7 +82,7 @@ const Home = () => {
 							</p>
 						</div>
 					</div>
-					<div className="card">
+					<div className="card business">
 						<div className="service-header">
 							<h1>CORPORATE & BUSINESS ADVISORY</h1>
 						</div>
@@ -102,7 +102,7 @@ const Home = () => {
 					</div>
 				</div>
 				<div className="cards">
-					<div className="card">
+					<div className="card estate">
 						<div className="service-header">
 							<h1>ESTATE ADMINISTRATION</h1>
 						</div>
@@ -119,7 +119,7 @@ const Home = () => {
 							</p>
 						</div>
 					</div>
-					<div className="card">
+					<div className="card technology">
 						<div className="service-header">
 							<h1>TECHNOLOGY</h1>
 						</div>

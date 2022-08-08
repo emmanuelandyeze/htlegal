@@ -57,7 +57,10 @@ const Nav = () => {
 					</span>
 				</>
 			)}
-			<ul className={boxClass.join(' ')}>
+			<ul
+				className={boxClass.join(' ')}
+				style={{ alignItems: 'center' }}
+			>
 				{/* Approach #1 --- Active  */}
 				<li>
 					<NavLink
@@ -121,7 +124,7 @@ const Nav = () => {
 					</NavLink>
 				</li>
 
-				<li>
+				{/* <li>
 					<a
 						// onClick={toggleClass}
 						// className={({ isActive }) =>
@@ -131,14 +134,15 @@ const Nav = () => {
 						style={{
 							backgroundColor: '#800000',
 							color: '#fff',
-							padding: '.5rem 1rem',
+							padding: '.5rem',
 							borderRadius: '5px',
+							fontSize: '15px',
 						}}
+						className="btn btn-secondary"
 					>
-						{' '}
-						Book an Appointment{' '}
+						Book an Appointment
 					</a>
-				</li>
+				</li> */}
 				<Outlet />
 			</ul>
 			{/* <div>
